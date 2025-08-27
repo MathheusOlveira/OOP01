@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class ClienteContaUnica01 {
 
-    HashSet<String> nomes = new HashSet<>();
-
     public static void adicionarConta(Set<Integer> contas, int numeroConta) {
+        // if (!existeConta(contas, numeroConta)) { // Outra forma de fazer
+
         if (contas.add(numeroConta)) {
             System.out.println("Conta " + numeroConta + " adicionada com sucesso.");
         } else {
