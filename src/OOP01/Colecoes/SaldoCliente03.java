@@ -2,7 +2,7 @@ package OOP01.Colecoes;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SaldoCliente {
+public class SaldoCliente03 {
 
     public static void adicionarCliente(Map<String, Double> contas, String numeroConta, double saldoInicial) {
         if (contas.containsKey(numeroConta)) {
